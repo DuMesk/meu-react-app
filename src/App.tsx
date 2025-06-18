@@ -1,5 +1,8 @@
 import Perfil from './Perfil';
 import Produto from './Produto';
+import Contador from './Contador';
+import TrocarTema from './TrocarTema';
+
 
 function App() {
   return (
@@ -45,6 +48,14 @@ function App() {
           imagem="https://i.ibb.co/Y4zM8c4j/image.png"
         />
       </div>
+      <div style={{ padding: '40px' }}>
+      <h1 style={{ textAlign: 'center' }}>Exemplo com useState</h1>
+      <Contador />
+    </div>
+    <div style={{ padding: '40px' }}>
+      <h1 style={{ textAlign: 'center' }}>Exemplo com useState</h1>
+      <TrocarTema />
+    </div>
     </div>
   );
 }
