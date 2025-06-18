@@ -1,6 +1,6 @@
-import Mensagem from './Mensagem';
-import Saudacao from './Saudacao';
-import Cartao from './Cartao';
+import Mensagem from './component/Mensagem';
+import Saudacao from './component/Saudacao';
+import Cartao from './component/Cartao';
 
 function App() {
   return (

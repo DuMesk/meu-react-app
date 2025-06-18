@@ -1,7 +1,7 @@
-import Perfil from './Perfil';
-import Produto from './Produto';
-import Contador from './Contador';
-import TrocarTema from './TrocarTema';
+import Perfil from './component/Perfil';
+import Produto from './component/Produto';
+import Contador from './component/Contador';
+import TrocarTema from './component/TrocarTema';
 
 
 function App() {
@@ -19,14 +19,14 @@ function App() {
           nome="Edu Mesquita"
           idade={32}
           profissao="Desenvolvedor Fullstack"
-          foto="https://i.pravatar.cc/150?img=3"
+          foto="https://i.ibb.co/PzPg1PmB/euzabumbacpt2.png"
         />
 
         <Perfil
-          nome="Celyne Silva"
+          nome="Celyne Souza"
           idade={28}
           profissao="Designer de Unhas"
-          foto="https://i.pravatar.cc/150?img=5"
+          foto="https://i.ibb.co/dsXMpJ3C/image.png"
         />
       </div>
       <div style={{
